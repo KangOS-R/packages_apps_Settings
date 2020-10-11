@@ -23,7 +23,7 @@
 
 <PreferenceScreen
     android:layout="@layout/logo_layout"
-    android:key="logo"
+    android:key="kangoslogo"
     android:selectable="false"/>
 
     <!-- Android version -->

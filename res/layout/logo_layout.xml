@@ -20,15 +20,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center"
-    android:orientation="horizontal" >
+    android:selectable="false">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="256dp" 
-        android:src="@drawable/logo"
+        android:layout_width="1250dp"
+        android:layout_height="200dp" 
+        android:src="@drawable/kangoslogo"
+        android:adjustViewBounds="true"
         android:scaleType="centerInside"
         android:layout_marginTop="2dp"
-	android:layout_marginBottom="2dp"
-        android:tint="?android:attr/colorAccent"
-        android:adjustViewBounds="true" />
+	android:layout_marginBottom="2dp" />
 </LinearLayout>
