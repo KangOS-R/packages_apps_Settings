@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 CorvusROM
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">电池温度</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">在锁屏上双击睡眠</string>
+    <string name="double_tap_sleep_lockscreen_summary">双击锁屏上的任意位置以使手机进入睡眠状态</string>
+    <string name="double_tap_sleep_gesture_title">双击状态栏睡眠状态</string>
+    <string name="double_tap_sleep_gesture_summary">双击状态栏以使设备进入睡眠状态</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">总内存</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">唤醒设置</string>
+    <string name="volume_rocker_wake_summary">按任意音量键唤醒设备</string>
+
+    <!-- volume rockers -->
+    <string name="volume_title">音量摇杆</string>
+    <string name="volume_summary">自定义音量按钮的设置</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">播放控制</string>
+    <string name="volume_rocker_music_controls_summary">屏幕关闭时，长按音量键将查找音乐曲目</string>
+
+    <string name="use_old_mobiletype_title">旧信号图标</string>
+    <string name="use_old_mobiletype_summary">将旧的图标用于信号（需要重新启动）</string>
+
+    <!-- QS Tint -->
+    <string name="qs_bg_use_new_tint">新色调风格</string>
+    <string name="qs_bg_use_new_tint_summary">启用新的QS色调样式（需要重新启动）</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux的状态</string>
+    <string name="selinux_status_disabled">禁用 Disabled</string>
+    <string name="selinux_status_permissive">允许 Permissive </string>
+    <string name="selinux_status_enforcing">强制执行 Enforcing</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">找到手机正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">找到手机左侧的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">找到手机右侧的指纹传感器。</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找到设备正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">在设备左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">在设备右侧找到指纹传感器。</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找到平板电脑正面的指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">在平板电脑的左侧找到指纹传感器。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">在平板电脑的右侧找到指纹传感器。</string>
+
+    <!-- Battery health -->
+    <string name="battery_health_title">电池健康</string>
+    <string name="battery_health_summary">监控设备的电池运行状况</string>
+    <string name="current_battery_capacity">当前电池容量</string>
+    <string name="current_battery_capacity_summary">内核测量的当前电池容量</string>
+    <string name="designed_battery_capacity">设计电池容量</string>
+    <string name="designed_battery_capacity_summary">电池容量由制造商设计</string>
+    <string name="battery_charge_cycles">充电周期完成</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G 图标</string>
+    <string name="show_fourg_icon_summary">在信号图标中显示4G图标，而不是LTE</string>
+
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">数据已禁用图标</string>
+    <string name="data_disabled_icon_summary">禁用数据时，在信号栏旁边显示x符号来表示数据已经被禁用</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">漫游指示器</string>
+    <string name="roaming_indicator_icon_summary">处于漫游模式时，在信号图标中显示漫游指示符</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">选色器</string>
+    <string name="press_color_to_apply">点击颜色来应用你的颜色设置</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">十六进制：</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">设置</string>
+    <string name="color_default">默认</string>
+
+</resources>
